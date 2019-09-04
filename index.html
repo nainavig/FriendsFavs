@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="index.css">
+<link href="https://fonts.googleapis.com/css?family=Petit+Formal+Script|Roboto:100,300,400,700&display=swap" rel="stylesheet">
+
+<body>
+
+<h2>Enter up to five usernames</h2>
+<form>
+  <input name="username" type="text" id="username1"><br>
+  <input name="username" type="text" id="username2"><br>
+  <input name="username" type="text" id="username3"><br>
+  <input name="username" type="text" id="username4"><br>
+  <input name="username" type="text" id="username5"><br>
+</form>
+
+<button onclick="filloutput()">Submit</button>
+
+<p id="output"></p>
+
+<script>
+function filloutput(){
+  var u1 = document.getElementById("username1").value;
+  var u2 = document.getElementById("username2").value;
+  var u3 = document.getElementById("username3").value;
+  var u4 = document.getElementById("username4").value;
+  var u5 = document.getElementById("username5").value;
+  document.getElementById("output").innerHTML = u1;
+}
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  /*background-image: linear-gradient(to right, #ffffff, #f0ebeb);*/
+  background-image: linear-gradient(to right, #ffccc9, #fffec9, #c9ffed, #c9edff, #c9ceff);
+  font-weight:lightest;
+}
